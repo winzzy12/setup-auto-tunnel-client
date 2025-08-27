@@ -4,9 +4,9 @@
 # ===================================================
 
 VPN_NAME="myvpn"
-VPN_SERVER="103.218.167.29"
-VPN_USER="nusanet"
-VPN_PASS="Nusanet2022#"
+VPN_SERVER="IP VPN"
+VPN_USER="user"
+VPN_PASS="pass"
 
 # 1. Install pptp client
 sudo apt update
