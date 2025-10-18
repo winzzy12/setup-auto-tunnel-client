@@ -35,6 +35,13 @@ Hapus auto-route VPN
   ```bash
   sudo pon myvpn
   ```
+
+* Kembalikan route VPN
+  ```bash
+  ip route del default
+  ip route add default dev ppp0
+  ```
+  
 * Kembalikan route utama
   ```bash
   sudo ip route del default && sudo ip route add default via 192.168.0.254 dev enp0s3
@@ -43,5 +50,5 @@ Hapus auto-route VPN
   ```bash
   sudo ip route add 10.10.10.0/24 dev ppp0
   ```
-  
+
 * Done
